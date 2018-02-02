@@ -60,13 +60,13 @@ npm run dev
 - [x] api未设置跨域
 		解决：使用vue-cli的话，可以再config/index,js 中找到dev里的proxyTable 写入
 ```javacript		
-			'/api':{
-				target:'http://api.xxxx.com',
-				changeOrigin:true,//是否跨域
-				pathRewrite:{
-				'^/api':'http://api.xxxx.com'
-				}
-			} 
+	'/api':{
+		target:'http://api.xxxx.com',
+		changeOrigin:true,//是否跨域
+		pathRewrite:{
+		'^/api':'http://api.xxxx.com'
+		}
+	} 
 ```
 	<pre>注意：只在开发环境下有效</pre>
 - [x] v-for中动态更改对应item的:class的真假无效<br>
@@ -74,7 +74,7 @@ npm run dev
 - [x] 使用 keep-alive 时 想让指定组件保存其他组件依然重新加载<br>
 		解决：
 ```html
-		<keep-alive include="组件的name">xxx</keep-alive>
+	<keep-alive include="组件的name">xxx</keep-alive>
 ```
 <pre>注意:name不是router中定义的name，而是组件内定义的name。</pre>
 - [x] 路由进出时想要做些事情怎么办<br>
