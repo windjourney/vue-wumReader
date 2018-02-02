@@ -57,13 +57,13 @@ npm run dev
 
 ## 遇到的错误
 
-- [x] api未设置跨域
-		解决：使用vue-cli的话，可以再config/index,js 中找到dev里的proxyTable 写入
+- [x] api跨域问题
+		解决：使用vue-cli的话，可以在config/index,js 中找到dev里的proxyTable 写入
 ```javacript		
 	'/api':{
-		target:'http://api.xxxx.com',
-		changeOrigin:true,//是否跨域
-		pathRewrite:{
+		target:'http://api.xxxx.com',//源地址
+		changeOrigin:true,//改变源
+		pathRewrite:{ //路径重写
 		'^/api':'http://api.xxxx.com'
 		}
 	} 
