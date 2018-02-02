@@ -68,7 +68,8 @@ npm run dev
 		}
 	} 
 ```
-	<pre>注意：只在开发环境下有效</pre>
+
+<pre>注意：只在开发环境下有效</pre>
 - [x] v-for中动态更改对应item的:class的真假无效<br>
 		解决：使用$set(obj,index,value)来进行变更<br>
 - [x] 使用 keep-alive 时 想让指定组件保存其他组件依然重新加载<br>
