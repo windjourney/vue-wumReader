@@ -69,11 +69,11 @@ npm run dev
 			} 
 ```
 	**注意：只在开发环境下有效**
-- [x] v-for中动态更改对应item的:class的真假无效
-		解决：使用$set(obj,index,value)来进行变更
-- [x] 使用 keep-alive 时 想让指定组件保存其他组件依然重新加载
-		解决：在<keep-alive include="组件的name">xxx</keep-alive>
+- [x] v-for中动态更改对应item的:class的真假无效<br>
+		解决：使用$set(obj,index,value)来进行变更<br>
+- [x] 使用 keep-alive 时 想让指定组件保存其他组件依然重新加载<br>
+		解决：在<keep-alive include="组件的name">xxx</keep-alive><br>
 	**注意:name不是router中定义的name，而是组件内定义的name。**
-- [x] 路由进出时想要做些事情怎么办
-		解决：使用beforeRouteEnter和beforeRouteLeave等钩子函数进行设置
+- [x] 路由进出时想要做些事情怎么办<br>
+		解决：使用beforeRouteEnter和beforeRouteLeave等钩子函数进行设置<br>
 	**注意：里面必须要使用next()函数，否则不跳转路由**
