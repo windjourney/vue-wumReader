@@ -9,7 +9,7 @@
 本人只是一个初学者，有什么建议欢迎提出，让我们共同进步，如果你也刚学vue，可以了解一下，喜欢可以给star
 给我个小鼓励。
 
-##运行
+## 运行
 
 ``` bash
 
@@ -21,21 +21,21 @@ npm run dev
 
 ```
 
-##页面效果展示
+## 页面效果展示
 
-###主页和阅读
+### 主页和阅读
 
 ![](https://github.com/windjourney/vue-wumReader/blob/master/pic/Animation1.gif) 
 
-###分类和排行
+### 分类和排行
 
 ![](https://github.com/windjourney/vue-wumReader/blob/master/pic/Animation2.gif) 
 
-###收藏和删除
+### 收藏和删除
 
 ![](https://github.com/windjourney/vue-wumReader/blob/master/pic/Animation3.gif) 
 
-##已完成目标
+## 已完成目标
 
 - [x] 小说搜索
 - [x] 小说书架
@@ -47,7 +47,7 @@ npm run dev
 - [x] 章节跳转
 - [x] 小说删除
 
-##未完成目标
+## 未完成目标
 
 - [ ] 小说书单
 - [ ] 皮肤更换功能
@@ -55,7 +55,7 @@ npm run dev
 - [ ] 小说阅读位置记录(非章节)
 - [ ] 排行周榜月榜
 
-##遇到的错误
+## 遇到的错误
 
 - [x] api未设置跨域
 		解决：使用vue-cli的话，可以再config/index,js 中找到dev里的proxyTable 写入
