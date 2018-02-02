@@ -1,6 +1,5 @@
 import qs from 'querystring'
 import axios from 'axios'
-let url = 'http://novel.juhe.im';
 export default {
 	//获取带书籍数量的父分类
 	getCategories(){
