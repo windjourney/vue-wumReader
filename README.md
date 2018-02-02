@@ -57,7 +57,7 @@ npm run dev
 
 ## 遇到的错误
 
-- [x] api跨域问题
+- [x] api跨域问题<br>
 		解决：使用vue-cli的话，可以在config/index,js 中找到dev里的proxyTable 写入
 ```javacript		
 	'/api':{
